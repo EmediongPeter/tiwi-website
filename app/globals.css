@@ -18,3 +18,16 @@ body {
   color: var(--foreground);
   font-family: "Manrope", sans-serif;
 }
+
+@keyframes scroll-left {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-25%);
+  }
+}
+
+.animate-scroll-left {
+  animation: scroll-left 20s linear infinite;
+}
