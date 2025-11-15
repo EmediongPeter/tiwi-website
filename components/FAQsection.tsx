@@ -92,7 +92,7 @@ export default function FAQSection() {
                   : "max-h-0 opacity-0"
               }`}
             >
-              <div className="px-5 pb-5 text-sm text-gray-300">
+              <div className="px-5 pb-5 text-sm text-[#B5B5B5]">
                 {faq.answer}
               </div>
             </div>
