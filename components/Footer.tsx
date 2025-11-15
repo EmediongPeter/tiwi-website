@@ -9,8 +9,8 @@ export default function Footer() {
 
       {/* GREEN TOP GLOW BACKGROUND */}
       <div
-        className="absolute md:block hidden -top-20 left-1/2 -translate-x-1/2 -translate-y-1/3 
-                   w-1/2 h-1/2 rounded-b-full  blur-[20px]
+        className="absolute md:block hidden -top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/3 
+                   w-1/2 h-full rounded-full backdrop-blur-2xl blur-md
                    bg-linear-to-b from-[#78A627] to-transparent pointer-events-none">
       </div>
       <div className="md:hidden flex justify-end absolute top-0 right-0 w-full overflow-hidden pointer-events-none">
@@ -110,9 +110,9 @@ export default function Footer() {
 
       {/* GREEN BOTTOM GLOW BACKGROUND */}
       <div
-        className="absolute hidden md:block bottom-0 left-1/2 -translate-x-1/2 translate-y-1/3
-                   w-1/2 h-8 rounded-t-full blur-[15px]
-                    bg-linear-to-t from-transparent to-[#78A627]  pointer-events-none">
+        className="absolute md:block hidden -bottom-75 left-1/2 -translate-x-1/2
+                   w-1/2 h-full rounded-full backdrop-blur-2xl blur-md
+                   bg-linear-to-t from-[#78A627] to-transparent pointer-events-none">
       </div>
     </footer>
   );
