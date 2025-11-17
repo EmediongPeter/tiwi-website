@@ -1,6 +1,6 @@
 export default function WhatIsTiwi() {
   return (
-    <section className="relative w-full bg-[#051401] py-20 px-4 md:px-0 rounded-b-3xl overflow-hidden">
+    <section className="relative w-full bg-[#051401] py-16 md:py-20 px-4 md:px-0 rounded-b-3xl overflow-hidden">
       {/* Decorative blobs */}
       <div className="absolute right-8 md:right-32 top-20 w-8 h-8 md:w-12 md:h-12 rounded-full bg-gradient-radial from-[#B1F128] to-[#466B06] opacity-60 blur-sm" />
       <div className="absolute left-8 md:left-20 top-32 w-12 h-12 md:w-16 md:h-16 rounded-full bg-gradient-radial from-[#B1F128] to-[#466B06] opacity-40 blur-md" />

@@ -13,11 +13,21 @@ export default function Home() {
     <div className="font-[Manrope] font-black text-4xl">
 
      <HeroSection />
-     <WhatIsTiwi />
-     <ProductModules />
-     <ProtocolDashboard />
-     <LaunchLifecycle />
-     <PartnersSlider />
+     <div id="about">
+       <WhatIsTiwi />
+     </div>
+     <div id="modules">
+       <ProductModules />
+     </div>
+     <div id="how-it-works">
+       <ProtocolDashboard />
+     </div>
+     <div id="governance">
+       <LaunchLifecycle />
+     </div>
+     <div id="roadmap">
+       <PartnersSlider />
+     </div>
      <FAQSection />
     </div>
   );
