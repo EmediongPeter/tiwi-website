@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export default function DashboardStatsGrid() {
   return (
-    <section className="bg-[#020304] py-16 px-6 text-white">
+    <section className="bg-[#010501] py-16 px-6 text-white">
       {/* HEADER SECTION */}
       <div className="text-center mb-10">
         <span className="text-[#B5F128] text-sm tracking-wide">
