@@ -37,7 +37,7 @@ export default function LaunchLifecycle() {
   ];
 
   return (
-    <section className="bg-[#020304] py-20 text-white px-6">
+    <section className="bg-[#010501] py-20 text-white px-6">
       {/* Header */}
       <div className="text-center mb-16">
          <div className="flex items-center justify-center gap-2 mb-4">

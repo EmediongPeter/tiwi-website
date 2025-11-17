@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function HeroSection() {
   return (
-    <section className="relative w-full overflow-hidden bg-[#020403] pt-32 pb-40 select-none">
+    <section className="relative w-full overflow-hidden bg-[#010501] pt-40 md:pt-48 pb-40 select-none">
       {/* Floating Leaves */}
       <Image src="/images/Leave3.svg" alt="leaf" width={48} height={48} className="absolute left-72 top-120 w-10 h-10 opacity-80" />
       <Image src="/images/Leave1.svg" alt="leaf" width={66} height={66} className="absolute right-64 top-20 w-20 h-12 opacity-80" />

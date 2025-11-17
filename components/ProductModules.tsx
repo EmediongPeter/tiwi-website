@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export default function ProductModules() {
   return (
-    <section className="bg-[#020304] py-20 text-white px-6">
+    <section className="bg-[#010501] py-20 text-white px-6">
       {/* Header */}
       <div className="text-center mb-16">
 

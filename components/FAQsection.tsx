@@ -44,7 +44,7 @@ export default function FAQSection() {
   };
 
   return (
-    <section className="w-full bg-[#0B0F0A] py-20 px-6 flex flex-col items-center text-white">
+    <section className="w-full bg-[#010501] py-20 px-6 flex flex-col items-center text-white">
       
       {/* TOP LABEL + GREEN LINES */}
       <div className="flex flex-col items-center mb-10">
