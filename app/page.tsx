@@ -5,6 +5,7 @@ import PartnersSlider from "@/components/PartnersSlider";
 import ProductModules from "@/components/ProductModules";
 import ProtocolDashboard from "@/components/ProtocolDashboard";
 import WhatIsTiwi from "@/components/WhatIsTiwi";
+import CoreBenefits from "@/components/CoreBenefits";
 import Image from "next/image";
 
 
@@ -16,6 +17,7 @@ export default function Home() {
      <div id="about">
        <WhatIsTiwi />
      </div>
+     <CoreBenefits />
      <div id="modules">
        <ProductModules />
      </div>
